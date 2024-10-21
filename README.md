@@ -3,7 +3,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   [git clone https://github.com/your-username/your-repo-name.git](https://github.com/adithyamohanan/HTML-CSS-TEST.git)
 
 
 2. Open index.html
