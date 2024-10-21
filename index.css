@@ -58,19 +58,15 @@ button{
     border-radius: 5px;
     background-color: rgb(92, 132, 226);
     color: #ffffff;
+    border: 1px solid rgb(255, 255, 255);
 }
 
-.form{
-
-    background-color: #e2dddd;
-    width: 23%;
-    height: 350px;
-    border-radius: 10px;
-    margin-left: 550px;
-    padding-left: 50px;
-    margin-top: 150px;
+.form2{
+    
+    
+    margin-left: 555px;
+    padding-top: 150px;
 }
-
 
 .login{
 
@@ -102,7 +98,25 @@ input{
 
 .footer{
 
-    background-color: #48bfff;
+    background-color: #3f4040;
     width: 100%;
     height: 200px;
+    padding-top: 6%;
+}
+
+
+.bgimage2{
+
+    background-image: url(./bgimage2.jpg);
+    width: 100%;
+    height: 695px;
+}
+
+
+.btn-reg{
+
+    margin-left: 50px;
+    width: 15%;
+    border-radius: 10px;
+    height: 40px;
 }

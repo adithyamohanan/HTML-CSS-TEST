@@ -17,8 +17,8 @@
         
     <form action="home.html">
        
-        <label for="">Username:  </label>&nbsp;<input type="text" placeholder="Enter your username: " pattern="" title=""><br><br>
-        <label for="password">Password: </label>&nbsp;<input type="password" placeholder="Enter your password: " pattern="" title=""><br><br>
+        <label for="">Username:  </label>&nbsp;<input type="text" placeholder="Enter your username: " pattern="[a-z0-9]+" title="Username should be either small letter or digits" required><br><br>
+        <label for="password">Password: </label>&nbsp;<input type="password" placeholder="Enter your password: " pattern="[A-z0-9]{8}" title="Length of characters should be 8" required><br><br>
 
         <input type="submit" value="Log in">
     </form>
